@@ -9,7 +9,7 @@ root.title('Mindbuddy')
 root.geometry('600x400')
 
 # Load and convert the image
-img = Image.open("gh-pfp.png")
+img = Image.open("assets/gh-pfp.png")
 img = ImageTk.PhotoImage(img)
 
 label1 = Label(root, image=img)
